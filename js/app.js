@@ -5,7 +5,7 @@ import {
     trending, historialDe, sincronizarSteam
 } from "./api.js";
 
-const estado = { pagina: 1, limite: 12, filtros: {}, juegoAbierto: null };
+const estado = { pagina: 1, limite: 4, filtros: {}, juegoAbierto: null };
 
 const $ = selector => document.querySelector(selector);
 
